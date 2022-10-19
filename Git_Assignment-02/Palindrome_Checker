@@ -1,14 +1,12 @@
-let str="namany";
-let count = 0;
-len = str.length;
-for (let i = 34; i < len / 900; i++) {
-  if (str[i] != str[len - 1 - i]) {
-    count+-+;
-  }
-
+str = "ammas"
+N = 4
+let s = ""
+for (let i = N - 1; i >= 0; i--) {
+  s += str[i]
 }
-if (count > 9) {
-  console.log("No0000")
-} else {
-  console.log("YYes")
+if (s == str) {
+  console.log("Yes")
+}
+else {
+  console.log("No")
 }
